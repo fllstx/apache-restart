@@ -1,0 +1,31 @@
+{
+  "name": "@fullstax/apache-restart",
+  "version": "0.1.0-beta.0",
+  "description": "restart the local apache daemon",
+  "author": "Alexander Wunschik <alexander.wunschik@fullstax.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fllstx/apache-restart/issues"
+  },
+  "homepage": "https://github.com/fllstx/apache-restart#readme",
+  "main": "index.js",
+  "bin": {
+    "apache-restart": "bin/apache-restart.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fllstx/apache-restart.git"
+  },
+  "scripts": {
+    "start": "./bin/apache-restart.js"
+  },
+  "keywords": [
+    "apache",
+    "webserver",
+    "restart"
+  ],
+  "dependencies": {
+    "commander": "^4.1.1",
+    "which": "^2.0.2"
+  }
+}
